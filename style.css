@@ -1,0 +1,258 @@
+Calibribody {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+header ul {
+    margin-bottom: 0;
+}
+
+table {
+    text-align: left;
+    padding: 0px;
+}
+
+
+h3 {
+    font-family: "Calibri", sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
+
+h4 {
+    font-family: "Calibri", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+h5 {
+    font-size: 16px;
+    font-family: "Calibri", sans-serif;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+
+button {
+    border: 1px solid RGBA(0, 0, 0, 0.6);
+    border-radius: 3px;
+    padding: 3px;
+    background-color: white;
+    margin-right: 4px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E53935;
+}
+
+a button i {
+    color: red;
+}
+
+a button {
+    cursor: pointer;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 50px;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container {
+    /*margin: 0px auto;*/
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 717px;
+    padding: 18px;
+}
+
+.tags {
+    margin-top: 5px;
+}
+
+.headshot {
+    width: 300px;
+}
+
+.email {
+    display: inline;
+    font-size: 16px;
+}
+
+.buffer {
+    height: 20px;
+}
+
+.date {
+    width: 135px;
+    padding-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 150;
+    float: left;
+    text-align: right;
+}
+
+.course {
+    font-weight: 300;
+}
+
+.desc {
+    color: RGBA(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+
+.item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+main {
+    width: 681px;
+    margin: 0px auto;
+}
+
+.header {
+    border-bottom: 1px solid RGBA(0, 0, 0, 0.6);
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    color: #0D4E96
+}
+
+#links-l {
+    display: inline-block;
+    padding: 10px;
+    margin-top: -15px;
+    margin-bottom: 33px;
+    font-size: 20px;
+}
+
+#links-r {
+    float: right;
+    padding: 10px;
+    margin-top: -15px;
+    margin-bottom: 33px;
+    font-size: 20px;
+}
+
+.fa-home {
+    text-align: left;
+}
+
+#header-info {
+    text-align: left;
+    margin-right: 30px;
+    margin-bottom: 0;
+
+}
+
+
+#name {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.gold {
+    text-decoration: none;
+    color: #B3A369;
+}
+
+.blue {
+    text-decoration: none;
+    color: #0D4E96;
+}
+
+.purple {
+    text-decoration: none;
+    color: #0D4E96;
+}
+
+.red {
+    color: #E53935;
+}
+
+.threads {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.minor {
+    font-weight: 300;
+}
+
+.jobs {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+  font-size: 11px;
+  font-family: "Calibri", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.thumbnail {
+    border: 1px solid #e3e3e3;
+    width: 517px;
+    margin-top: 10px;
+}
